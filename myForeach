@@ -6,7 +6,6 @@ array.forEach(function (value,index,arr) {
     console.log(index);
     console.log(arr);
 });
-
 //实现添加原型
 Array.prototype.myForEach=function (callback,thisArg) {
     if(typeof callback!=='function'){
